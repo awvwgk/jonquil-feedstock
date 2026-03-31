@@ -3,7 +3,37 @@ About jonquil-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jonquil-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/toml-f/jonquil
+
+About jonquil
+-------------
+
+Home: https://toml-f.github.io/jonquil/
+
+Package license: Apache-2.0 OR MIT
+
+Summary: JSON parser implementation for data serialization and deserialization in Fortran 
+
+Development: https://github.com/toml-f/jonquil
+
+Documentation: https://toml-f.readthedocs.io/en/latest/how-to/jonquil/
+
+About jonquil
+-------------
+
+Home: https://toml-f.github.io/jonquil/
+
+Package license: Apache-2.0 OR MIT
+
+Summary: JSON parser implementation for data serialization and deserialization in Fortran
+
+Development: https://github.com/toml-f/jonquil
+
+Documentation: https://toml-f.readthedocs.io/en/latest/how-to/jonquil/
+
+About jonquil-devel
+-------------------
+
+Home: https://toml-f.github.io/jonquil/
 
 Package license: Apache-2.0 OR MIT
 
@@ -86,6 +116,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-jonquil-green.svg)](https://anaconda.org/conda-forge/jonquil) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jonquil.svg)](https://anaconda.org/conda-forge/jonquil) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jonquil.svg)](https://anaconda.org/conda-forge/jonquil) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jonquil.svg)](https://anaconda.org/conda-forge/jonquil) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jonquil--devel-green.svg)](https://anaconda.org/conda-forge/jonquil-devel) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jonquil-devel.svg)](https://anaconda.org/conda-forge/jonquil-devel) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jonquil-devel.svg)](https://anaconda.org/conda-forge/jonquil-devel) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jonquil-devel.svg)](https://anaconda.org/conda-forge/jonquil-devel) |
 
 Installing jonquil
 ==================
@@ -97,16 +128,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `jonquil` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `jonquil, jonquil-devel` can be installed with `conda`:
 
 ```
-conda install jonquil
+conda install jonquil jonquil-devel
 ```
 
 or with `mamba`:
 
 ```
-mamba install jonquil
+mamba install jonquil jonquil-devel
 ```
 
 It is possible to list all of the versions of `jonquil` available on your platform with `conda`:
